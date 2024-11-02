@@ -1,0 +1,35 @@
+{
+  "type": "object",
+  "title": "User Profile",
+  "description": "A user profile in the system",
+  "properties": {
+    "personal_info": {
+      "type": "object",
+      "properties": {
+        "first_name": {
+          "type": "string"
+        },
+        "last_name": {
+          "type": "string"
+        },
+        "age": {
+          "type": "integer"
+        }
+      }
+    },
+    "account_info": {
+      "type": "object",
+      "properties": {
+        "username": {
+          "type": "string"
+        },
+        "active": {
+          "type": "boolean"
+        },
+        "balance": {
+          "type": "number"
+        }
+      }
+    }
+  }
+}
