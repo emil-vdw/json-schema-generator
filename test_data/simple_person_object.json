@@ -1,0 +1,10 @@
+{
+  "name": {
+    "first": "John",
+    "last": "Smith",
+    "middle": "Robert"
+  },
+  "age": 32,
+  "active": true,
+  "id": "root"
+}

@@ -9,11 +9,8 @@ use serde::{Serialize, Deserialize};
 //   "examples": [true, false]
 // }
 
-#[derive(Debug, Clone, Serialize, Deserialize)]
+#[derive(Debug, Clone, Serialize, Deserialize, Default)]
 pub struct BooleanSchema {
-    #[serde(rename = "enum")]
-    r#enum: Option<Vec<bool>>,
-    
     title: Option<String>,
     description: Option<String>,
     examples: Option<Vec<f64>>,

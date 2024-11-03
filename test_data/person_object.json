@@ -1,0 +1,32 @@
+{
+  "personal_info": {
+    "name": {
+      "first": "John",
+      "last": "Smith",
+      "middle": "Robert"
+    },
+    "age": 32,
+    "active": true
+  },
+  "contact": {
+    "address": {
+      "street": "123 Main Street",
+      "city": "Springfield",
+      "postal_code": "12345"
+    },
+    "phone": {
+      "home": "555-0123",
+      "mobile": "555-4567",
+      "preferred": "mobile"
+    }
+  },
+  "employment": {
+    "current": {
+      "title": "Senior Developer",
+      "salary": 95000.00,
+      "full_time": true
+    },
+    "start_date": "2020-03-15",
+    "department": "Engineering"
+  }
+}

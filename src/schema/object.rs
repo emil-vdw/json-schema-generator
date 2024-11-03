@@ -70,3 +70,8 @@ pub struct ObjectSchema {
     // XXX: Support the complete spec, eg.
 }
 
+impl From<HashMap<String, Schema>> for ObjectSchema {
+    fn from(properties: HashMap<String, Schema>) -> Self {
+        ObjectSchema { title: None, description: None, properties }
+    }
+}

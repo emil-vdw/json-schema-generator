@@ -35,6 +35,16 @@ pub enum Schema {
     Number(NumberSchema),
     Integer(IntegerSchema),
     Object(ObjectSchema),
+    Null,
+}
+
+impl Schema {
+    pub fn is_primitive(&self) -> bool {
+        match self {
+            Schema::Object(_) => false,
+            _ => true,
+        }
+    }
 }
 
 impl fmt::Display for JsonType {
